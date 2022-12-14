@@ -1,13 +1,23 @@
 async function getUser(){
     try{
         const data= await axios.get(`https://6398917e044fa481d6a28718.mockapi.io/api/ggg`)
-        console.log(data)
+        let b=data.data
+    b.forEach(function(e){
+            return e.name
+        })
+        console.log(b.length)
+            for(i=0;i<b.length;i++){
+                let h1=document.createElement('h1')
+                h1.innerHTML=b[i].name
+                document.body.appendChild(h1) 
+            }
     }
     catch(error){
 console.log(error);
     }
 }
 getUser()
+
 
 
 
@@ -46,13 +56,3 @@ getUser()
 
 
 
-const p=3.14 
-try{
-    console.log(p*10)
-}
-catch(e){
-    console.log(e)
-}
-finally{
-    console.log("Bilokhirat")
-}

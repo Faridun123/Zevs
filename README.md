@@ -113,3 +113,6 @@ operation.
 
 The syntax to use await is
 ![](./Images/i-09.jpg)
+
+# HTTP = HyperText Transfer Protocol
+HTTP (англ. HyperText Transfer Protocol — «протокол передачи гипертекста») — протокол прикладного уровня передачи данных, изначально — в виде гипертекстовых документов в формате HTML, в настоящее время используется для передачи произвольных данных.
